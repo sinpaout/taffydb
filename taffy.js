@@ -2019,3 +2019,8 @@ var TAFFY, exports, T;
 if ( typeof(exports) === 'object' ){
   exports.taffy = TAFFY;
 }
+
+if ((typeof module !== "undefined" && module !== null) && (module.exports != null)) {
+  module.exports.taffy = TAFFY;
+}
+
